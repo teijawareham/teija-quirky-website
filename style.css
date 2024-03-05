@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'montserrat', cursive;
+}
+
+/* Aliging the button + text*/
+
+.flex{
+display: inline-block;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 250px;
+
+}
+
+.flex2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Button design */
+
+.btn{
+background: pink;
+border: solid black;
+border-radius: 5px;
+height: 80px;
+width: 200px;
+margin-top: 20px;
+font-size: 30px;
+letter-spacing: 2px;
+
+}
+
+/* Text under the button*/
+
+#legend{
+margin-top: 40px;
+font-size: 30px;}
